@@ -3,6 +3,8 @@
 ## Bryce Allard
 
 ## Kevin Grau
+Kevin is a welder turned future software developer after deciding to take a chance and go back to college. 
+Currently working on Graduating from MATC Madison, Kevin is slowly building a portfolio and a foundation to build a career off of.
 
 ## Josh Haefner
 Josh is a father, husband, and student at Madison Area Technical College. After serving in the Army for 7 years, he taught  
