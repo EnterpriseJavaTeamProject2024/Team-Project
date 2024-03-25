@@ -1,6 +1,10 @@
 # Team Resume
 
 ## Bryce Allard
+Bryce is a current student at Madison Area Technical College with a year of experience in front-end development for a web 
+solutions provider serving mid sized banks. Over the summer, Bryce completed a full-stack internship for a local mail-order
+catalog company. He currently works for MATC and is looking forward to starting his development career.   
+GitHub: [Bryce Allard](https://github.com/BryceAllard)
 
 ## Kevin Grau
 Kevin is a welder turned future software developer after deciding to take a chance and go back to college. 
