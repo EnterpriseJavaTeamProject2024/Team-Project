@@ -8,7 +8,7 @@
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <property name="connection.username">admin</property>
-        <property name="connection.password">student1</property>
+        <property name="connection.password">administrator</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -17,9 +17,8 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
-        <!--<mapping class="edu.matc.entity.Book" />
-        <mapping class="edu.matc.entity.Author" /> -->
-        <mapping class="com.fishing.guide.Entity.UserData" />
+        <mapping class="funfactapi.entities.FunFacts" />
+        <mapping class="funfactapi.entities.Admin" />
     </session-factory>
 
 </hibernate-configuration>

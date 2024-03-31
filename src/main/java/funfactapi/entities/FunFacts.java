@@ -5,6 +5,9 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Entity
 public class FunFacts {
 
@@ -43,10 +46,11 @@ public class FunFacts {
 
     @Override
     public String toString() {
-        return "FunFacts{" +
-                "ID=" + ID +
-                ", funFact='" + funFact + '\'' +
-                ", category='" + category + '\'' +
+        return "{" +
+                "ID:" + ID +
+                ", funFact:'" + funFact + '\'' +
+                ", category:'" + category + '\'' +
                 '}';
     }
+
 }
