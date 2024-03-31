@@ -20,6 +20,26 @@ public class FunFactDAO {
         } catch (Exception e) {
             return null;
         }
+    }
 
+    public FunFacts getRandomFunFact() {
+        dao = new GenericDao<>(FunFacts.class);
+        randomIndex = new Random();
+        List<FunFacts> results = dao.getAll();
+        if (results.size() != 0) {
+            int index = randomIndex.nextInt(results.size());
+            return results.get(index);
+        }
+        return null;
+    }
+
+    public FunFacts getRandomFunFactByID(int ID) {
+        dao = new GenericDao<>(FunFacts.class);
+        try {
+            FunFacts result = dao.getById(ID);
+            return result;
+        } catch (Exception e) {
+            return null;
+        }
     }
 }

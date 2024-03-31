@@ -54,9 +54,9 @@ public class GenericDao<T> {
      * @param guid entity id to search by
      * @return entity
      */
-    public <T> T getById(String guid) {
+    public <T> T getById(int ID) {
         Session session = getSession();
-        T entity = (T)session.get(type, guid);
+        T entity = (T)session.get(type, ID);
         session.close();
         return entity;
     }
