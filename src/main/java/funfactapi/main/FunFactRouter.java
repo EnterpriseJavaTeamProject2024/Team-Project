@@ -3,6 +3,7 @@ package funfactapi.main;
 import funfactapi.main.gets.GetFunFactByCategory;
 import funfactapi.main.gets.GetFunFactByID;
 import funfactapi.main.gets.GetRandomFunFact;
+import funfactapi.main.puts.UpdateFunFact;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
@@ -21,6 +22,7 @@ public class FunFactRouter extends Application {
         h.add(GetRandomFunFact.class);
         h.add(GetFunFactByID.class);
         h.add(GetFunFactByCategory.class);
+        h.add(UpdateFunFact.class);
         return h;
     }
 }
