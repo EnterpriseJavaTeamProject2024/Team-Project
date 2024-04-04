@@ -57,4 +57,13 @@ public class FunFactDAO {
         dao.update(fact);
         return fact;
     }
+
+    public boolean deleteFunFact(int ID) {
+        FunFacts fact = dao.getById(ID);
+        if (fact != null) {
+            dao.delete(fact);
+            return true;
+        }
+        return false;
+    }
 }
