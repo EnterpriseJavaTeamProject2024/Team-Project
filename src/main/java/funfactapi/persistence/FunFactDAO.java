@@ -57,4 +57,17 @@ public class FunFactDAO {
         dao.update(fact);
         return fact;
     }
+
+    public FunFacts createFunFact(String funFact, String category) {
+        FunFacts newFact = new FunFacts();
+        newFact.setFunFact(funFact);
+        newFact.setCategory(category);
+
+        try {
+            dao.insert(newFact);
+            return newFact;
+        } catch (Exception e) {
+            return null;
+        }
+    }
 }
