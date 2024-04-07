@@ -3,7 +3,7 @@ package funfactapi.main;
 import funfactapi.main.gets.GetFunFactByCategory;
 import funfactapi.main.gets.GetFunFactByID;
 import funfactapi.main.gets.GetRandomFunFact;
-import funfactapi.main.puts.DeleteFunFact;
+import funfactapi.main.deletes.DeleteFunFact;
 import funfactapi.main.puts.UpdateFunFact;
 
 import javax.ws.rs.ApplicationPath;
