@@ -58,6 +58,7 @@ public class FunFactDAO {
         return fact;
     }
 
+<<<<<<< HEAD
     public FunFacts createFunFact(String funFact, String category) {
         FunFacts newFact = new FunFacts();
         newFact.setFunFact(funFact);
@@ -69,5 +70,14 @@ public class FunFactDAO {
         } catch (Exception e) {
             return null;
         }
+    }
+    public boolean deleteFunFact(int ID) {
+        FunFacts fact = dao.getById(ID);
+        if (fact != null) {
+            dao.delete(fact);
+            return true;
+        }
+        return false;
+>>>>>>> d44b598fb51477be311c96a7610234ec13ae1e93
     }
 }
