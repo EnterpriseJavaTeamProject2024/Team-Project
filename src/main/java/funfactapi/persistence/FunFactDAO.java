@@ -64,8 +64,8 @@ public class FunFactDAO {
         newFact.setCategory(category);
 
         try {
-            dao.insert(newFact);
-            return newFact;
+            FunFacts insertedFunFact = dao.insert(newFact);
+            return insertedFunFact;
         } catch (Exception e) {
             return null;
         }

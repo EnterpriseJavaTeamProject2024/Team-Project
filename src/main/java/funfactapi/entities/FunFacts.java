@@ -1,9 +1,8 @@
 package funfactapi.entities;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import org.hibernate.annotations.GenericGenerator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +11,8 @@ import java.util.Map;
 public class FunFacts {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native", strategy = "native")
     private int ID;
 
     @Column(name = "FunFact")
