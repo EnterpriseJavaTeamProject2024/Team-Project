@@ -46,6 +46,7 @@ Join our community of fun fact enthusiasts and turn every moment into an opportu
  * [GET /funFactByID/:ID](Docs/funFactById.md)
  * [GET /randomFunFact](Docs/randomFunFact.md)
  * [POST /createFunFact/:category&funFact&adminKey](Docs/createFunFact.md)
+ * [PUT /updateFunFact/:category&ID&funFact&adminKey](Docs/updateFunFact.md)
 
 ## Project Plan - 
 * Week 1 
