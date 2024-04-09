@@ -6,13 +6,9 @@
 
 | Parameter Name | Description | Type/Format | Required/Optional |
 | ---------------| ----------- | ----------- |   -------- |
-| name| Trail name, for example "Big Easy" | string |  Required |
-| length| Trail length. | number |Optional |
-| unit| Trail length units. For example, "mi" or "km".| string | Optional |
-| description| Trail description. For example, "Flat, wide loop trail groomed by the Birkie. Excellent for beginners." | string | Optional |
-| website| Website url for more trail info. For example, "http://cambatrails.org". | string |  Optional |
-| latitude | Latitude of the trail head. For example,  | number |  46.106941 | Optional |
-| longitude | Longitude of the trail head. For example,  | number | -91.298243 | Optional |
+| category| Fun Fact category. Must be valid category | string |  Required |
+| funFact| Fun fact. | string | Required |
+| adminKey| Only admins can update fun facts | string | Required |
 
 
 * Error Response:
