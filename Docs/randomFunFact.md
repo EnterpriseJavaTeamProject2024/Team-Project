@@ -8,11 +8,11 @@
   * Content:
 
 	 ```
-{
-  "ID": 30,
-  "funFact": "Cats have a specialized collarbone that allows them to always land on their feet when they fall.",
-  "category": "Animals"
-}
+	{
+	  "ID": 30,
+	  "funFact": "Cats have a specialized collarbone that allows them to always land on their feet when they fall.",
+	  "category": "Animals"
+	}
 	 ```
 
 * Sample curl: 
