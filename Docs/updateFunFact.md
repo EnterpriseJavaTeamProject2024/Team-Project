@@ -6,10 +6,10 @@
 
 | Parameter Name | Description | Type/Format | Required/Optional |
 | ---------------| ----------- | ----------- |   -------- |
-| id | Report id. | number | Required|
-| date| Report date. The format must be YYYY-MM-DD, for example 2019-03-19 | string, must be in the format YYYY-MM-DD |  Optional |
-| conditions| Description of the trail conditions. | string |Optional |
-| user| User making the report.| string | Optional |
+| id | Fun Fact id. | number | Required|
+| category| Fun Fact category. Must be valid category | string |  Required |
+| funFact| Fun fact. | string | Required |
+| adminKey| Only admins can update fun facts | string | Required |
 
 
 * Error Response:
