@@ -1,0 +1,62 @@
+-- Drop the table if it exists
+DROP TABLE IF EXISTS FunFacts;
+
+-- Create the table
+CREATE TABLE FunFacts (
+                              ID INT AUTO_INCREMENT PRIMARY KEY,
+                              FunFact VARCHAR(2000),
+                              Category VARCHAR(255)
+);
+
+INSERT INTO FunFacts (FunFact, Category)
+VALUES
+    ('The heart of a blue whale is so large that a human can swim through its arteries.', 'Nature'),
+    ('Bananas are berries, but strawberries are not.', 'Food'),
+    ('Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible.', 'Food'),
+    ('A group of flamingos is called a flamboyance.', 'Animals'),
+    ('The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes.', 'History'),
+    ('An octopus has three hearts.', 'Animals'),
+    ('The longest time between two twins being born is 87 days.', 'Human Body'),
+    ('The shortest complete sentence in the English language is Go.', 'Language'),
+    ('A single teaspoon of honey represents the life work of 12 bees.', 'Nature'),
+    ('The Eiffel Tower can be 15 cm taller during the summer due to thermal expansion of the metal.', 'Science'),
+    ('The national animal of Scotland is the unicorn.', 'Culture'),
+    ('A bolt of lightning contains enough energy to toast 100,000 slices of bread.', 'Science'),
+    ('The inventor of the Frisbee was cremated and made into a Frisbee after he died.', 'Oddities'),
+    ('Cows have best friends and can become stressed when separated from them.', 'Animals'),
+    ('The longest word in the English language is pneumonoultramicroscopicsilicovolcanoconiosis.', 'Language'),
+    ('There are more possible iterations of a game of chess than there are atoms in the known universe.', 'Games'),
+    ('A group of crows is called a murder.', 'Animals'),
+    ('The dot over the letter i is called a tittle.', 'Language'),
+    ('The world\'s oldest known your mom joke dates back to 3,500 years ago, found in a Babylonian tablet.', 'History'),
+('There\'s a species of jellyfish (Turritopsis dohrnii) that is biologically immortal. It can revert back to its juvenile form after reaching maturity.', 'Nature'),
+    ('A single cloud can weigh more than 1 million pounds.', 'Science'),
+    ('The word nerd was first coined by Dr. Seuss in If I Ran the Zoo.', 'Literature'),
+    ('The average person walks the equivalent of three times around the world in a lifetime.', 'Human Body'),
+    ('The world\'s largest snowflake on record was 15 inches wide and 8 inches thick.', 'Nature'),
+('A shrimp\'s heart is located in its head.', 'Animals'),
+    ('The first computer virus was created in 1983 and was called the Elk Cloner.', 'Technology'),
+    ('The longest English word without a vowel is rhythms.', 'Language'),
+    ('The Guinness World Record for the longest hiccuping spree is 68 years.', 'Human Body'),
+    ('The Great Wall of China is not visible from space, contrary to popular belief.', 'Geography'),
+    ('Cats have a specialized collarbone that allows them to always land on their feet when they fall.', 'Animals'),
+    ('The Mona Lisa has no eyebrows. It was the fashion in Renaissance Florence to shave them off.', 'Art'),
+    ('A day on Venus is longer than a year on Venus.', 'Space'),
+    ('The world\'s largest rubber duck is over 54 feet tall and weighs 11 tons.', 'Oddities'),
+('The first item ever sold on eBay was a broken laser pointer.', 'Technology'),
+('The word ambidextrous is derived from Latin words meaning right on both sides.', 'Language'),
+('The fingerprints of koala bears are so similar to humans\' that they have on occasion been confused at a crime scene.', 'Animals'),
+    ('A group of porcupines is called a prickle.', 'Animals'),
+    ('The world\'s smallest book is 0.07 mm x 0.10 mm, about the size of a grain of sand.', 'Literature'),
+('The tongue is the only muscle in the body that is attached at only one end.', 'Human Body'),
+('The shortest commercial flight in the world is between two Scottish islands, Westray and Papa Westray, and can take as little as 53 seconds.', 'Travel'),
+('The original name for the butterfly was flutterby.', 'Nature'),
+('A jiffy is an actual unit of time: 1/100th of a second.', 'Science'),
+('There are more possible moves in a game of Go than atoms in the universe.', 'Games'),
+('The first person convicted of speeding was going 8 mph.', 'History'),
+('The average person laughs 10 times a day.', 'Human Body'),
+('An adult human has 206 bones, but a baby is born with approximately 270 bones. Some bones fuse together as we grow.', 'Human Body'),
+('A micromort is a unit of risk measuring a one-in-a-million chance of death.', 'Science'),
+('The only letter not appearing on the periodic table is the letter J.', 'Science'),
+('The smell of freshly cut grass is actually a plant distress call.', 'Nature'),
+('The national anthem of Greece has 158 verses.', 'Culture');
