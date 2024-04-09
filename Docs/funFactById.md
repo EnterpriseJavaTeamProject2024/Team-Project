@@ -13,11 +13,11 @@
   * Content:
   
 	 ```
-{
-  "ID": 17,
-  "funFact": "A group of crows is called a murder.",
-  "category": "Animals"
-}
+	{
+	  "ID": 17,
+	  "funFact": "A group of crows is called a murder.",
+	  "category": "Animals"
+	}
 	 ```
 
 * Sample curl: 
@@ -29,5 +29,5 @@
 * Sample request in browser:
 
 	```
-http://funfactapi-team-env.eba-x2myvpmm.us-east-2.elasticbeanstalk.com/funFacts/funFactByID?ID=17
+	http://funfactapi-team-env.eba-x2myvpmm.us-east-2.elasticbeanstalk.com/funFacts/funFactByID?ID=17
 	```
