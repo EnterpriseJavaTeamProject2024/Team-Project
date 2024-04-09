@@ -47,9 +47,9 @@ public class FunFacts {
     @Override
     public String toString() {
         return "{" +
-                "ID:" + ID +
-                ", funFact:'" + funFact + '\'' +
-                ", category:'" + category + '\'' +
+                "\"ID\":" + ID +
+                ", \"funFact\":\"" + funFact.replace("\"", "\\\"") + "\"" +
+                ", \"category\":\"" + category.replace("\"", "\\\"") + "\"" +
                 '}';
     }
 

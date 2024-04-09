@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://funfactteamproject.ct80k62csa8s.us-east-2.rds.amazonaws.com:3306/funFacts</property>
+        <property name="connection.url">jdbc:mysql://awseb-e-2jmppb3ysy-stack-awsebrdsdatabase-j0nddkvfx1wk.ct80k62csa8s.us-east-2.rds.amazonaws.com:3306/FunFacts</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <property name="connection.username">admin</property>

@@ -58,7 +58,6 @@ public class FunFactDAO {
         return fact;
     }
 
-<<<<<<< HEAD
     public FunFacts createFunFact(String funFact, String category) {
         FunFacts newFact = new FunFacts();
         newFact.setFunFact(funFact);
@@ -78,6 +77,5 @@ public class FunFactDAO {
             return true;
         }
         return false;
->>>>>>> d44b598fb51477be311c96a7610234ec13ae1e93
     }
 }
