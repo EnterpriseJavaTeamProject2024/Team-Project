@@ -12,11 +12,11 @@
   * Content:
 
 	 ```
-{
-  "ID": 8,
-  "funFact": "The shortest complete sentence in the English language is Go.",
-  "category": "Language"
-}
+	{
+	  "ID": 8,
+	  "funFact": "The shortest complete sentence in the English language is Go.",
+	  "category": "Language"
+	}
 	 ```
 
 * Sample curl: 
