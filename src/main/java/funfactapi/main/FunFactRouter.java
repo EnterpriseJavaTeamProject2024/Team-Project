@@ -3,11 +3,7 @@ package funfactapi.main;
 import funfactapi.main.gets.GetFunFactByCategory;
 import funfactapi.main.gets.GetFunFactByID;
 import funfactapi.main.gets.GetRandomFunFact;
-<<<<<<< HEAD
-import funfactapi.main.deletes.DeleteFunFact;
-=======
 import funfactapi.main.posts.CreateFunFact;
->>>>>>> main
 import funfactapi.main.puts.UpdateFunFact;
 
 import javax.ws.rs.ApplicationPath;
@@ -28,11 +24,7 @@ public class FunFactRouter extends Application {
         h.add(GetFunFactByID.class);
         h.add(GetFunFactByCategory.class);
         h.add(UpdateFunFact.class);
-<<<<<<< HEAD
-        h.add(DeleteFunFact.class);
-=======
         h.add(CreateFunFact.class);
->>>>>>> main
         return h;
     }
 }
