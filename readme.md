@@ -30,7 +30,7 @@ Join our community of fun fact enthusiasts and turn every moment into an opportu
   * AWS Beanstalk
 * Postman 
 
-## Proposed Operations -
+## Service Operations -
 * Retrieve random fun fact
 * Retrieve fun fact by ID
 * Retrieve random fun fact by category
@@ -39,6 +39,13 @@ Join our community of fun fact enthusiasts and turn every moment into an opportu
   * Admin token
 * Delete fun fact
   * Admin token
+ 
+ ## Service Calls
+ * [DELETE /deleteFunFact/:id&adminKey](deleteFunFact.md)
+ * [GET /funFactByCategory/:category](funFactByCategory.md)
+ * [GET /funFactByID/:ID](docs/funFactById.md)
+ * [GET /randomFunFact](docs/randomFunFact.md)
+ * [POST /createFunFact/:category&funFact&adminKey](docs/createFunFact.md)
 
 ## Project Plan - 
 * Week 1 
