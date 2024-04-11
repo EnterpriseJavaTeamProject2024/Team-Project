@@ -4,19 +4,21 @@
 
 * Error Response:
     * Status Code: 400
-    *** Needs Attention Content `There is no report with ID 19. Cannot delete.`
+    * Content:
+      ```
+      There is no report with ID 117. Cannot delete.
+      ```
 
 * Success Response:
 
   * Status Code: 200 
-  *** Needs Attention * Content:
+  * Content:
  ```
-Fun Fact 117 deleted.
+Fun Fact 17 deleted.
  ```
 
 * Sample curl: 
 
 ```
-curl --request DELETE http://localhost:8080/FunFactsAPI_war/funFacts/deleteFunFact?ID=117&adminKey=AdminKeyTest
-curl --request DELETE http://localhost:8080/fbtr/services/reports/1
+curl --request DELETE http://localhost:8080/FunFactsAPI_war/funFacts/deleteFunFact?ID=17&adminKey=AdminKeyTest
 ```
