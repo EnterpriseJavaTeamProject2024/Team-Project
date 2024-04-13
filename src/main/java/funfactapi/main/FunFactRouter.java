@@ -1,5 +1,6 @@
 package funfactapi.main;
 
+import funfactapi.main.deletes.DeleteFunFact;
 import funfactapi.main.gets.GetFunFactByCategory;
 import funfactapi.main.gets.GetFunFactByID;
 import funfactapi.main.gets.GetRandomFunFact;
@@ -25,6 +26,7 @@ public class FunFactRouter extends Application {
         h.add(GetFunFactByCategory.class);
         h.add(UpdateFunFact.class);
         h.add(CreateFunFact.class);
+        h.add(DeleteFunFact.class);
         return h;
     }
 }
