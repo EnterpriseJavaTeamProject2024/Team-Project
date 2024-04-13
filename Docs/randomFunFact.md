@@ -24,5 +24,5 @@
 * Sample request in browser:
 
 	```
-	[http://funfactapi-team-env.eba-x2myvpmm.us-east-2.elasticbeanstalk.com/funFacts/randomFunFact]
+	http://funfactapi-team-env.eba-x2myvpmm.us-east-2.elasticbeanstalk.com/funFacts/randomFunFact
 	```
