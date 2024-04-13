@@ -14,9 +14,9 @@
 
 * Error Response:
     * Status Code: 400
-    * Content `date, conditions, and user are all empty: nothing to edit.`
+    * Content `category, funFact, and adminKey are all empty: nothing to edit.`
     or
-    * Content `There is no report with ID 55`
+    * Content `There is no fun fact with ID 55`
 
 * Success Response:
 
@@ -24,11 +24,11 @@
   * Content:
 
 	 ```
-	Report 3 has been updated.
+	Fun fact 5 has been updated.
 	```
 
 * Sample curl: 
 
 	```
-	curl --request PUT --data "id=3&conditions=Updated Report conditions" http://localhost:8080/fbtr/services/reports
+	curl --request PUT --data "id=5&category=Country"
 	```
