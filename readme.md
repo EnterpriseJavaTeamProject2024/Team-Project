@@ -19,16 +19,14 @@ Join our community of fun fact enthusiasts and turn every moment into an opportu
 
 ## Tooling -
 * Java
-  * Spring (TBD)
   * Hibernate
   * Log4J
   * Junit
 * AWS
-  * AWS Aurora (TBD)
-  * AWS RDS - MySQL (TBD)
-  * Amazon API Gateway
+  * AWS RDS - MySQL
   * AWS Beanstalk
-* Postman 
+* Postman
+* SoapUI
 
 ## Service Operations -
 * Retrieve random fun fact
@@ -66,9 +64,7 @@ Join our community of fun fact enthusiasts and turn every moment into an opportu
   * Be able to add a fun fact
   * Be able to update a fun fact
   * Be able to delete a fun fact
-  * Make sure crUD ops are admin only
-  * Setup Amazon API gateway
-    * I do not want someone to find this and make my life expensive.
+  * Make sure CRUD ops are admin only
 * Week 4 
   * Testing and external feedback.
 
