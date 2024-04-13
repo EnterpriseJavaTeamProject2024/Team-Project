@@ -13,7 +13,7 @@
 
 * Error Response:
     * Status Code: 400
-    * Content `Property 'name' is missing.`
+    * Content `Property 'funFact' is missing.`
 
 
 * Success Response:
@@ -22,11 +22,11 @@
   * Content:
 
 	 ```
-	Trail 4 created: (name = New Trail Name length = 10 units = miles description = fun trail website = camba.com latitude = 124.12 longitude = 654.78) ```
+	Fun Fact created: (category = Food funFact = Water is wet adminKey = adminKeyExample) ```
 	```
 
 * Sample curl: 
 
 	```
-	curl --request POST --data "name=New Trail Name&length=10&units=miles&description=fun trail&website=camba.com&latitude=124.12&longitude=654.78" http://localhost:8080/fbtr/services/trails/
+	curl --request POST --data "category=Food&funFact=Water is wet&adminKey=adminKeyExample" 
 	```
